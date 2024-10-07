@@ -2,8 +2,10 @@ import streamlit as st
 import pandas as pd
 import streamlit_authenticator as stauth
 
-
-
+st.set_page_config(
+    page_title="SCOMP",  # Define o título da aba
+    page_icon="imagens/logo.png"  # Caminho para o seu ícone
+)
 
 @st.cache_data
 def carregar_dados():
