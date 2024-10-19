@@ -17,7 +17,7 @@ base = carregar_dados()
     
 pg = st.navigation(
     {
-    "Home": [st.Page("homepage.py", title="SCOMP-2")],
+    "Home": [st.Page("homepage.py", title="SCOMP")],
     "Dashboards": [st.Page("dashboard.py", title="Dashboard"), st.Page("indicadores.py", title="Indicadores")],
     "Sorteador": [st.Page("sorteador.py", title="Sorteador")],
     "Sort_Agrupamentos": [st.Page("sort_agrupamento.py", title="Sorteador Agrupamentos")],
