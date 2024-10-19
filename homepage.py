@@ -11,7 +11,7 @@ if "username" in secao_usuario:
 
 coluna_esquerda, coluna_direita = st.columns([1, 1])
 
-coluna_esquerda.title("Time SCOMP-2")
+coluna_esquerda.title("Time SCOMP")
 if nome_usuario:
     coluna_esquerda.write(f"#### Bem vindo, {nome_usuario}") # markdown
 botao_dashboards = coluna_esquerda.button("Dashboard Projetos")
