@@ -32,4 +32,4 @@ if botao_sort_agrup_comp:
     st.switch_page("sort_agrup_comp.py")
 
 container = coluna_direita.container(border=False)
-container.image("imagens/scomp2.png")
+container.image("imagens/croupier.webp")
